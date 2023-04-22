@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.picture-grid {
+  display: grid;
+  grid-template-columns: 242px 320px 1fr;
+  grid-template-rows: 320 1fr;
+}
